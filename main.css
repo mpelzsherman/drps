@@ -1,0 +1,106 @@
+h1 {
+	background: #C1B48E;
+}
+
+.ui-widget-content a {
+	color: #0000ee;
+}
+
+body {
+	padding: 20px;
+	background: black;
+	width:836px;
+}
+
+#tabs {
+	margin: 0px;
+}
+
+#top-banner {
+	height:160px;
+	background-image:url(images/top_banner.png);
+	background-repeat: no-repeat;
+	margin: 0px;
+}
+
+.banner-text {
+	color: #f0f0f0;
+	font-size: 34px;
+	font-weight: bold;
+	text-shadow: 0.2em 0.2em 0.2em black;
+	/* for IE: */
+	filter: Shadow(Color=#666666, 	
+			Direction=135);	chrom
+	font-variant: small-caps;
+	padding: 60px;
+}
+
+.banner-sub-text {
+	color: #f0f0f0;
+	font-size: 24px;
+	font-weight: bold;
+	text-shadow: 0.2em 0.2em 0.2em black;
+	font-variant: small-caps;
+	padding: 60px;
+}
+
+.content-parent {
+	width: 810px;
+	padding: 0px;
+}
+
+.content {
+	float: left;
+	background: #C1B48E;
+	font-size: 16px;
+	width: 520px;
+	line-height: 1.3em;
+	border-right: 3px solid black;
+	padding-right: 5px;
+	text-justify: newspaper;
+	font-family: Times, serif;
+}
+
+.image-sidebar {
+	float: right;
+	width: 270px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+	background: #C1B48E;
+}
+
+.content-footer {
+	clear: both;
+}
+
+.quote-text {
+	font-style: italic;
+	color: black;
+	text-align: right;
+	margin-right: 20px;
+}
+
+.testimonial {
+	font-style: italic;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.image-attribution {
+	color: grey;
+	text-align: right;
+	margin-right: 20px;
+	font-size: 8px;
+}
+
+#banner_contact {
+	position: absolute;
+	background-color: #C1B48E;
+	color: white;
+	margin: 0px 10px;
+	opacity: 0.7;
+	padding: 0.5em;
+	width: 200px;
+	border: solid black 1px;
+	left: 620px;
+}
