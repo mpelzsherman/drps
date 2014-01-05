@@ -17,7 +17,16 @@
 <script type="text/javascript">
 	$(function() {
 		$("#tabs").tabs();
+
+        // select tab from a link. Add the "tablink" class to links to make this work.
+        $('a.tablink').click(function(e) {
+            e.preventDefault();
+            var tab = $('.ui-tabs-nav li a[href=' + $(this).attr('href') + ']');
+            tab.click();
+            return false;
+        });
 	});
+
 </script>
 </head>
 
