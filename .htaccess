@@ -1,1 +1,1 @@
-php_value magic_quotes_gpc On
+# php_value magic_quotes_gpc On -- do not enable! causes 500 errors
